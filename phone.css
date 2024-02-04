@@ -1,0 +1,121 @@
+/*nav*/
+#navbar{
+flex-direction:column;
+}
+#navbar::before{
+padding-bottom:70px;
+}
+#navbar ul li a{
+font-size:1rem;
+padding:0px 5px;
+}
+/*home*/
+#home{
+height:500px;
+padding:3px 68px;
+
+}
+#home::before{
+height:515px;
+
+}
+#home p{
+font-size:1rem;
+
+}
+
+/*services*/
+#services{
+flex-direction:column;
+margin:10px;
+}
+#services .box{
+margin:8px;
+padding-bottom:0px;
+}
+#services .box img{
+height: 72px;
+margin-left: -12px;
+}
+#our{
+margin-bottom:-7px;
+}
+
+
+#ser-container{
+margin-top:-95px;
+
+}
+#services .box p {
+font-size: 0.9rem;
+text-align: start;
+position: relative;
+top: -26px;
+}
+
+/*client*/
+#client-section{
+
+}
+#clients .hp{
+position: relative;
+top: 85px;
+right: 140px;
+}
+#clients .skype{
+position: relative;
+top:85px;
+right:135px;
+}
+#clients .apple{
+position: relative;
+left:300px;
+}
+#clients .microsoft{
+position: relative;
+left:28px;
+}
+.client-item{
+display: contents;
+}
+#client-section::before{
+height:210px;
+}
+
+
+/*contact us*/
+#contact-box label{
+font-size:1rem;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 102%;
+    padding: 0.1rem;
+    font-size: 0.8rem;
+    position: relative;
+    right: 3px;
+    border-radius: 5px;
+}
+
+/*footer*/
+
+
+/*utilities classes*/
+.h-primary{
+font-size:1.3rem;
+}
+.h-secondary{
+padding:5px;
+font-size:1.1rem;
+position: relative;
+top:-54px;
+text-align: end;
+}
+#secondary .h-secondary{
+left:18px;
+}
+#send{
+    padding: 5px 50px;
+    font-size: 0.9rem;
+    margin-left: -5px;
+}
